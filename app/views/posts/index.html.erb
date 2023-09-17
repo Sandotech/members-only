@@ -5,3 +5,9 @@
   <p><%= post.body %></p>
   <p>Author: <%= current_user ? post.user.email : 'Anonymous' %></p>
 <% end %>
+
+<% if user_signed_in? %>
+  <%= link_to 'Sign Out', sign_out_path_url, method: :delete %>
+  <% else %>
+  <%= link_to 'Sign in', sign_in_path_url %>
+<% end %>
