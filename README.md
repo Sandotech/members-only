@@ -66,7 +66,7 @@ Contributions are welcome! If you find any issues or want to suggest improvement
 ### License
 This project is licensed under the MIT. See the LICENSE file for more details.
 
-###Acknowledgements
+### Acknowledgements
 - Devise: Used for user authentication.
 - Tailwind CSS: Used for custom styling.
 ### Contact
